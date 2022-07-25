@@ -1,5 +1,5 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 30 2022 13:44:45 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Mon Jul 25 2022 21:14:02 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="627d4689dd63164b3900747f" data-wf-site="627d4689dd6316bd5c00747d">
 <head>
   <meta charset="utf-8">
@@ -10,20 +10,47 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/axostage.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Bubblegum Sans:regular"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Bubblegum Sans:regular","Capriola:regular"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-THDC9J4RG5"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-THDC9J4RG5', {'anonymize_ip': false});</script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script async="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.2/dist/css/splide-core.min.css">
   <style>
+.roadmap-col-1:before {    content: '';
+		content: '';
+    position: absolute;
+    height: 1.75rem;
+    width: 1.75rem;
+    border: 0.5rem solid #008baa;
+    border-radius: 100%;
+    top: -1.2rem;
+    right: -1.2rem;
+    background-color: #ecb3b4;
+    z-index: 3;
+}
+.roadmap-col-1.last:before {display:none;}
+.roadmap-col-1.last:after { 
+	content: '';
+    position: absolute;
+    height: 1.75rem;
+    width: 1.75rem;
+    border: 0.5rem solid #008baa;
+    border-radius: 100%;
+    bottom: -1.15rem;
+    right: -1.2rem;
+    background-color: #ecb3b4;
+    z-index: 3;
+}
 .waves {
   position:relative;
   width: 100%;
   height:12vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
+  margin-bottom:-11px; /*Fix for safari gap*/
   min-height:100px;
   max-height:150px;
 }
@@ -67,6 +94,29 @@
   h1 {
     font-size:24px;
   }
+  .roadmap-col-1:before {    content: '';
+position: absolute;
+    height: 1.15rem;
+    width: 1.15rem;
+    border: 0.3rem solid #008baa;
+    border-radius: 100%;
+    top: -0.65rem;
+    right: -0.77rem;
+    background-color: #ecb3b4;
+    z-index: 3;
+}
+.roadmap-col-1.last:before {display:none;}
+.roadmap-col-1.last:after {    content: '';
+position: absolute;
+    height: 1.15rem;
+    width: 1.15rem;
+    border: 0.3rem solid #008baa;
+    border-radius: 100%;
+    bottom: -0.60rem;
+    right: -0.76rem;
+    background-color: #ecb3b4;
+    z-index: 3;
+}
 }
 </style>
   <style>
@@ -74,20 +124,23 @@
   overflow: visible;
 }
 </style>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.2/dist/js/splide.min.js"></script>
 </head>
 <body class="body">
-  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-    <div class="container axo-nav w-container">
-      <div class="div-block">
-        <a href="#" class="brand w-nav-brand"><img src="images/AXO.svg" loading="lazy" alt="AXO.EARTH" class="image"></a>
-        <div class="navbar-right-section">
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="_w-navbar w-nav">
+    <div class="_w-container axo-nav w-container">
+      <div class="_w-navbar-wrapper">
+        <div class="_w-navbar-left">
+          <a href="index.html" aria-current="page" class="brand w-nav-brand w--current"><img src="images/AXO.svg" loading="lazy" alt="AXO.EARTH" class="image"></a>
+          <a href="https://www.whitecapcanada.com" class="navbar--sociallinks w-inline-block"><img src="images/Twitter.svg" loading="lazy" width="24" alt="" class="image-7"></a>
+          <a href="https://www.whitecapcanada.com" class="navbar--sociallinks hide w-inline-block"><img src="images/discord.svg" loading="lazy" width="28.5" alt="" class="image-8"></a>
+        </div>
+        <div class="_w-navbar-right">
           <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="#" class="navbar-link w-nav-link">Roadmap</a>
-            <a href="#" class="navbar-link w-nav-link">Team</a>
-            <a href="#" class="navbar-link w-nav-link">Faqs</a>
+            <a href="#axo-roadmap" data-scroll-time="0" class="navbar-link w-nav-link">Roadmap</a>
+            <a href="#axo-team" data-scroll-time="0" class="navbar-link w-nav-link">Team</a>
+            <a href="#axo-faqs" data-scroll-time="0" class="navbar-link w-nav-link">Faqs</a>
+            <a href="https://axofightclub.com/" class="navbar-link buy-now w-nav-link">Buy Now</a>
           </nav>
-          <a href="#" class="navbar-link buy-now w-nav-link">Buy Now</a>
           <div class="menu-button w-nav-button">
             <div class="icon w-icon-nav-menu"></div>
           </div>
@@ -95,14 +148,15 @@
       </div>
     </div>
   </div>
-  <div class="section hero wf-section">
-    <div class="container hero w-container">
-      <div class="hero-textarea">
+  <div data-w-id="fc0ecba0-7fd8-d122-d6b4-d0bb7423da20" style="opacity:0" class="section hero wf-section">
+    <div class="_w-container hero w-container">
+      <div data-w-id="31869c17-54ea-219b-9346-df1300133810" style="opacity:0" class="hero-textarea">
         <h1 class="heading hero-heading">A FIGHT FOR THE AXO</h1>
-        <div class="text-block hero-text text-shadow">The Axo’s habitat has been overtaken. Help fight for their existence.</div>
-      </div><img src="images/hero-character.png" loading="lazy" sizes="(max-width: 479px) 100vw, 590px" srcset="images/hero-character-p-500.png 500w, images/hero-character-p-800.png 800w, images/hero-character-p-1080.png 1080w, images/hero-character-p-1600.png 1600w, images/hero-character-p-2000.png 2000w, images/hero-character.png 2226w" alt="" class="image-2">
+        <div class="text-block hero-text text-shadow">Welcome Champs! The Axos need your help.</div>
+        <div class="text-block hero-text text-shadow">Join the fight to help save Axolotls from extinction.</div>
+      </div><img class="image-2" src="images/Copy-of-Main-Character-wout-Gloves.png" alt="A Cute AXO" style="opacity:0" sizes="100vw" data-w-id="5785fb19-a9c2-7bdb-3a83-e8cf6329efd7" loading="lazy" srcset="images/Copy-of-Main-Character-wout-Gloves-p-500.png 500w, images/Copy-of-Main-Character-wout-Gloves-p-800.png 800w, images/Copy-of-Main-Character-wout-Gloves.png 1080w">
     </div>
-    <div class="html-embed w-embed"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 24 150 28" preserveaspectratio="none" shape-rendering="auto">
+    <div data-w-id="baf627d1-5eab-003d-239e-80ea527f46d8" class="html-embed w-embed"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 24 150 28" preserveaspectratio="none" shape-rendering="auto">
         <defs>
           <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
         </defs>
@@ -113,32 +167,43 @@
         </g>
       </svg></div>
   </div>
-  <div class="section bg-blue wf-section">
-    <div class="container w-container">
-      <div><img src="images/115.png" loading="lazy" width="540" sizes="(max-width: 479px) 100vw, 256px" srcset="images/115-p-500.png 500w, images/115-p-800.png 800w, images/115.png 1080w" alt="" class="nft-image rounded-corners image-shadow"><img src="images/58.png" loading="lazy" width="540" sizes="(max-width: 479px) 100vw, 256px" srcset="images/58-p-500.png 500w, images/58-p-800.png 800w, images/58.png 1080w" alt="" class="nft-image rounded-corners image-shadow"><img src="images/388.png" loading="lazy" width="540" sizes="(max-width: 479px) 100vw, 256px" srcset="images/388-p-500.png 500w, images/388-p-800.png 800w, images/388.png 1080w" alt="" class="nft-image rounded-corners image-shadow"></div>
-      <h1 class="axo-heading text-white font-size-1">Axolotls are an endangered species native to Mexico City.</h1>
-      <div class="text-white text-center">These creatures have the ability to regenerate lost limbs and organs. The preservation of these amphibians are crucial and further research could help unlock the key to human stem cell regeneration.</div>
+  <div class="section _w-d-flex bg-blue section1 wf-section">
+    <div class="_w-container w-container">
+      <div class="section2-imagewrapper"><img class="nft-image rounded-corners image-shadow section2-img1" src="images/115.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 128px, (max-width: 767px) 224px, 288px" data-w-id="82c1ea82-fab8-2e36-106c-e43eb2311e10" loading="lazy" srcset="images/115-p-500.png 500w, images/115-p-800.png 800w, images/115.png 1080w"><img class="nft-image rounded-corners image-shadow section2-img2" src="images/58.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 192px, (max-width: 767px) 304px, (max-width: 991px) 352px, 384px" data-w-id="7f7efa2d-f4ed-cd83-6de1-06048dd8f984" loading="lazy" srcset="images/58-p-500.png 500w, images/58-p-800.png 800w, images/58.png 1080w"><img class="nft-image rounded-corners image-shadow section2-img3" src="images/388.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 128px, (max-width: 767px) 208px, 272px" data-w-id="0618afd7-8169-3bdd-c8a5-a6df9a706dbb" loading="lazy" srcset="images/388-p-500.png 500w, images/388-p-800.png 800w, images/388.png 1080w"></div>
+      <h1 data-w-id="1b8b50df-8f78-ad87-7372-f8237f127e40" style="opacity:0" class="axo-heading text-white font-size-1">What is Axo Fight Club?</h1>
+      <div data-w-id="afb6f12d-b3ba-7d59-cc1f-595dec1ecf8d" style="opacity:0" class="text-white text-center">We are a unique NFT project building an environmentally conscious community of Champs, focused on raising money for the preservation of the Axolotl’s wild habitat. The Axo Fight Club is made up of 3,333 Axolotls who have joined forces to escape the pet store, and save their habitat!  Each Axo is unique, and has their own look and personality. Our community celebrates uncommon strength through diversity, creativity, togetherness and the fundamental will to survive!</div>
     </div>
   </div>
-  <div class="section d-flex border-aztec-top border-aztec-top bg-white wf-section">
-    <div class="container w-container">
-      <div class="w-row">
-        <div class="p-3 w-col w-col-6">
-          <h1 class="axo-heading text-left font-size-1">How to Get Involved</h1>
-          <div>We’re calling you to join the Axo community and help Axolotls in the fight for their future. 25% of proceeds will be donated to the Axolotl foundation and conservation efforts.</div>
+  <div class="section _w-d-flex border-aztec-top bg-white wf-section">
+    <div class="_w-container h-100 w-container">
+      <div class="columns-2 w-row">
+        <div class="p-3 w-col w-col-6 w-col-stack w-col-small-small-stack w-col-tiny-tiny-stack">
+          <h1 data-w-id="a5f59043-00a7-2811-d5bb-9cc677ca0036" style="opacity:0" class="axo-heading text-left">Join the Fight</h1>
+          <div data-w-id="6a62b73d-6e8e-2d49-c743-48bfaa84f775" style="opacity:0" class="section2-text">We are calling on you to join the Axo Fight Club, and help the Axolotls fight for their future! We have partnered with the Laboratoria de Restauracion Ecologica (LRE) at UNAM University to donate 25% of net proceeds to Axolotl habitat preservation and conservation. This money will go towards the maintenance and expansion of Chinampas, a traditional Aztec farming method which is highly sustainable, and creates the perfect Axolotl habitat. In addition to event access, community governance, and metaverse experiences, Axo buyers will adopt an Axolotl, receiving updates on its health and images of their Axolotl periodically from LRE.</div>
         </div>
-        <div class="w-col w-col-6">
-          <div><img src="images/11.png" loading="lazy" width="540" sizes="(max-width: 479px) 92vw, 256px" srcset="images/11-p-500.png 500w, images/11-p-800.png 800w, images/11.png 1080w" alt="" class="nft-image rounded-corners image-shadow"><img src="images/275.png" loading="lazy" width="540" sizes="(max-width: 479px) 92vw, 256px" srcset="images/275-p-500.png 500w, images/275-p-800.png 800w, images/275.png 1080w" alt="" class="nft-image rounded-corners image-shadow"></div>
+        <div class="column-5 w-col w-col-6 w-col-stack w-col-small-small-stack w-col-tiny-tiny-stack">
+          <div class="section3-imagewrapper"><img class="nft-image rounded-corners image-shadow section3-img1" src="images/11.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 192px, 288px" data-w-id="7c35a459-3530-879e-f68c-45a99adf80ec" loading="lazy" srcset="images/11-p-500.png 500w, images/11-p-800.png 800w, images/11.png 1080w"><img class="nft-image rounded-corners image-shadow section3-image2" src="images/275.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 176px, 288px" data-w-id="19d4049b-06a4-b96d-7777-4dab1442fd12" loading="lazy" srcset="images/275-p-500.png 500w, images/275-p-800.png 800w, images/275.png 1080w"></div>
+        </div>
+      </div>
+      <h1 data-w-id="b36aa042-20f4-4592-1fed-eea228c9202e" style="opacity:0" class="axo-heading text-left font-size-1">Partners</h1>
+      <div class="columns-2 w-row">
+        <div class="partners w-col w-col-6 w-col-medium-6 w-col-small-6 w-col-tiny-6">
+          <a href="https://www.restauracionecologica.org/" target="_blank" class="w-inline-block"><img src="images/logo-Restauracion-Ecologica.png" loading="lazy" data-w-id="f6de0f2c-1a8a-34fa-9062-c6ee11bed15b" style="opacity:0" alt="Restauración Ecológica Negro" class="partner-image"></a>
+        </div>
+        <div class="column-2 w-col w-col-6 w-col-medium-6 w-col-small-6 w-col-tiny-6">
+          <a href="https://www.arqonix.com/" target="_blank" class="w-inline-block"><img class="partner-image" src="images/logo.png" width="269" alt="Arconix Metavoxel Studio" style="opacity:0" sizes="(max-width: 767px) 46vw, 272px" data-w-id="f4cb51a8-accb-1aee-a23c-45503729f4e4" loading="lazy" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo-p-1600.png 1600w, images/logo-p-2000.png 2000w, images/logo.png 2137w"></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="section d-flex border-aztec-top border-aztec-top bg-gradient-yellow-palegreen wf-section">
-    <div class="container w-container">
+  <div class="section _w-d-flex border-aztec-top bg-gradient-yellow-palegreen overflow-hidden wf-section">
+    <div class="_w-container w-container">
       <div class="splide slider1 pill">
         <div class="splide__track w-dyn-list">
-          <div role="list" class="splide__list w-dyn-items w-row">
-            <div role="listitem" class="splide__slide w-dyn-item w-col w-col-6"></div>
+          <div role="list" class="splide__list w-dyn-items">
+            <div role="listitem" class="splide__slide w-dyn-item">
+              <div class="axo-image-carousel image-shadow"></div>
+            </div>
           </div>
           <div class="w-dyn-empty">
             <div>No items found.</div>
@@ -151,116 +216,186 @@
       </div>
     </div>
   </div>
-  <div class="section d-flex border-aztec-top border-aztec-top bg-gradient-pink-yellow wf-section">
-    <div class="container roadmap w-container">
-      <h1 class="axo-heading">AXO ROADMAP</h1>
-      <div class="roadmap-cols roadmap-firstrow w-row">
-        <div class="roadmap-col-1 roadmap-col-text w-col w-col-6 w-col-small-6 w-col-tiny-6">
-          <div class="roadmap-heading">Something goes here</div>
+  <div id="axo-roadmap" class="section _w-d-flex border-aztec-top bg-gradient-pink-yellow wf-section">
+    <div class="_w-container roadmap w-container">
+      <h1 data-w-id="2fc863aa-9901-c2f1-3bbc-70283573bb62" style="opacity:0" class="axo-heading roadmap-h1">AXO ROADMAP</h1>
+      <div class="roadmap-cols first-row w-row">
+        <div class="roadmap-col-1 roadmap-col-text first w-col w-col-6 w-col-small-6 w-col-tiny-6">
+          <div data-w-id="8a3bd828-b506-962d-595d-5193340cba41" style="opacity:0" class="roadmap-heading">Lore (Now)</div>
+          <div data-w-id="0f1f7bf0-ff89-02ef-210e-cdc6783d6a06" style="opacity:0" class="roadmap-text">Follow the story of Xolo, our main character, as he explores Axo World</div>
         </div>
-        <div class="roadmap-col-2 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="images/90.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, 256px" srcset="images/90-p-500.png 500w, images/90-p-800.png 800w, images/90.png 1080w" alt="" class="nft-image image-round image-shadow roadmap-image"></div>
+        <div class="roadmap-col-2 text-center first w-col w-col-6 w-col-small-6 w-col-tiny-6"><img class="nft-image image-round image-shadow roadmap-image first" src="images/Lore.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 40vw, (max-width: 767px) 46vw, 320px" data-w-id="4ff8260e-9466-9589-7cf6-870fe45ab45e" loading="lazy" srcset="images/Lore-p-500.png 500w, images/Lore-p-800.png 800w, images/Lore.png 1080w"></div>
       </div>
       <div class="roadmap-cols w-row">
-        <div class="roadmap-col-1 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="images/30.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, 256px" srcset="images/30-p-500.png 500w, images/30-p-800.png 800w, images/30.png 1080w" alt="" class="nft-image image-round image-shadow roadmap-image"></div>
+        <div class="roadmap-col-1 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img class="nft-image image-round image-shadow roadmap-image" src="images/Untitled-549.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 40vw, (max-width: 767px) 46vw, 320px" data-w-id="acc224d2-84a0-1ed2-df38-652a0abe30d2" loading="lazy" srcset="images/Untitled-549-p-500.png 500w, images/Untitled-549-p-800.png 800w, images/Untitled-549.png 1080w"></div>
         <div class="roadmap-col-2 roadmap-col-text w-col w-col-6 w-col-small-6 w-col-tiny-6">
-          <div class="roadmap-heading">AXO Foundation</div>
+          <div data-w-id="d6af0b01-1b51-9f82-df7b-1be6a881f70f" style="opacity:0" class="roadmap-heading">Donation (Q3)</div>
+          <div data-w-id="42ebc5dc-a0bc-b42c-1b32-2dec2102acc6" style="opacity:0" class="roadmap-text">The Axos have come together to repair their habitat<br></div>
+          <div data-w-id="2236171c-ed52-801f-3ce2-75378f5d6041" style="opacity:0" class="roadmap-text">The more we grow, the more we can help<br></div>
         </div>
       </div>
       <div class="roadmap-cols w-row">
         <div class="roadmap-col-1 roadmap-col-text w-col w-col-6 w-col-small-6 w-col-tiny-6">
-          <div class="roadmap-heading">AXO Universe</div>
+          <div data-w-id="b83c4e88-af81-af53-88c6-8035e9bb8c09" style="opacity:0" class="roadmap-heading">Adoption (Q3)</div>
+          <div data-w-id="6f540454-25e6-369e-17f2-2e796d44f0d4" style="opacity:0" class="roadmap-text">Bring your Axo to life with the Adopt and Axolotl program through LRE UNAM<br></div>
         </div>
-        <div class="roadmap-col-2 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="images/154.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, 256px" srcset="images/154-p-500.png 500w, images/154-p-800.png 800w, images/154.png 1080w" alt="" class="nft-image image-round image-shadow roadmap-image"></div>
+        <div class="roadmap-col-2 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img class="nft-image image-round image-shadow roadmap-image" src="images/Adopt-an-Axo.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 40vw, (max-width: 767px) 46vw, 320px" data-w-id="7f3e2f14-9839-c388-805c-810b6d12719a" loading="lazy" srcset="images/Adopt-an-Axo-p-500.png 500w, images/Adopt-an-Axo-p-800.png 800w, images/Adopt-an-Axo.png 1080w"></div>
       </div>
       <div class="roadmap-cols w-row">
-        <div class="roadmap-col-1 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="images/241.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, 256px" srcset="images/241-p-500.png 500w, images/241-p-800.png 800w, images/241.png 1080w" alt="" class="nft-image image-round image-shadow roadmap-image"></div>
+        <div class="roadmap-col-1 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img class="nft-image image-round image-shadow roadmap-image" src="images/Training-Center.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 40vw, (max-width: 767px) 46vw, 320px" data-w-id="e7537048-0049-1a87-799c-1ef9bfc95c9c" loading="lazy" srcset="images/Training-Center-p-500.png 500w, images/Training-Center-p-800.png 800w, images/Training-Center.png 1080w"></div>
         <div class="roadmap-col-2 roadmap-col-text w-col w-col-6 w-col-small-6 w-col-tiny-6">
-          <div class="roadmap-heading">Virtual &amp; In Person Events</div>
+          <div data-w-id="d3407981-8d57-9790-e1bb-c124dc0e1857" style="opacity:0" class="roadmap-heading">Training Center (Q3)</div>
+          <div data-w-id="031b7685-2a68-71ea-7704-5095f65a6a64" style="opacity:0" class="roadmap-text">Stake your Axo to receive $AXOS<br></div>
+        </div>
+      </div>
+      <div class="roadmap-cols w-row">
+        <div class="roadmap-col-1 roadmap-col-text w-col w-col-6 w-col-small-6 w-col-tiny-6">
+          <div data-w-id="9a576752-beb3-a8a3-6a54-5aef812afd75" style="opacity:0" class="roadmap-heading">Events (Q3)</div>
+          <div data-w-id="9a576752-beb3-a8a3-6a54-5aef812afd77" style="opacity:0" class="roadmap-text">Come together to meet the other Champs<br></div>
+        </div>
+        <div class="roadmap-col-2 text-center w-col w-col-6 w-col-small-6 w-col-tiny-6"><img class="nft-image image-round image-shadow roadmap-image" src="images/Events.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 40vw, (max-width: 767px) 46vw, 320px" data-w-id="9a576752-beb3-a8a3-6a54-5aef812afd7b" loading="lazy" srcset="images/Events-p-500.png 500w, images/Events-p-800.png 800w, images/Events.png 1080w"></div>
+      </div>
+      <div class="roadmap-cols last-row w-row">
+        <div class="roadmap-col-1 text-center last w-col w-col-6 w-col-small-6 w-col-tiny-6"><img class="nft-image image-round image-shadow roadmap-image last" src="images/Metaverse.png" width="540" alt="" style="opacity:0" sizes="(max-width: 479px) 40vw, (max-width: 767px) 46vw, 320px" data-w-id="20b01c08-12d9-af45-ff2a-54a841f813d2" loading="lazy" srcset="images/Metaverse-p-500.png 500w, images/Metaverse-p-800.png 800w, images/Metaverse.png 1080w"></div>
+        <div class="roadmap-col-2 roadmap-col-text last w-col w-col-6 w-col-small-6 w-col-tiny-6">
+          <div class="roadmap-textblock">
+            <div data-w-id="438a4c5a-c214-0896-394d-90c12cd4fef9" style="opacity:0" class="roadmap-heading">Metaverse (Q3 - Q4)</div>
+            <div data-w-id="d109cdd0-794c-fecf-e83e-9781f7fb4590" style="opacity:0" class="roadmap-text">Axo World has been purchased on Sandbox and will be held in the Champs community treasury<br></div>
+            <div data-w-id="a26dafd1-208a-419e-a11b-9da4faa85b1f" style="opacity:0" class="roadmap-text">Join the Axo World metaverse to participate in virtual events and be a part of the Axo story<br></div>
+            <div data-w-id="f81a75c3-8385-c50e-9d2a-49e3ba1a0765" style="opacity:0" class="roadmap-text">10+ custom Sandbox skins for the Champs to choose from<br></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section d-flex border-aztec-top border-aztec-top bg-white wf-section">
-    <div class="container w-container">
-      <h1 class="axo-heading heading-blue">AXO TEAM</h1>
+  <div id="axo-team" class="section _w-d-flex border-aztec-top bg-white wf-section">
+    <div class="_w-container w-container">
+      <h1 data-w-id="33bfb443-4e44-678c-116b-a511158cc747" style="opacity:0" class="axo-heading heading-blue team-section">AXO TEAM</h1>
       <div class="team-row">
-        <div class="team-card blue"><img src="images/241.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 33vw, (max-width: 991px) 26vw, 256px" srcset="images/241-p-500.png 500w, images/241-p-800.png 800w, images/241.png 1080w" alt="" class="nft-image image-round image-shadow"></div>
-        <div class="team-card blue"><img src="images/241.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 33vw, (max-width: 991px) 26vw, 256px" srcset="images/241-p-500.png 500w, images/241-p-800.png 800w, images/241.png 1080w" alt="" class="nft-image image-round image-shadow"></div>
-        <div class="team-card blue"><img src="images/241.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 33vw, (max-width: 991px) 26vw, 256px" srcset="images/241-p-500.png 500w, images/241-p-800.png 800w, images/241.png 1080w" alt="" class="nft-image image-round image-shadow"></div>
-        <div class="team-card blue"><img src="images/241.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 33vw, (max-width: 991px) 26vw, 256px" srcset="images/241-p-500.png 500w, images/241-p-800.png 800w, images/241.png 1080w" alt="" class="nft-image image-round image-shadow"></div>
-        <div class="team-card blue"><img src="images/241.png" loading="lazy" width="540" sizes="(max-width: 479px) 96px, (max-width: 767px) 33vw, (max-width: 991px) 26vw, 256px" srcset="images/241-p-500.png 500w, images/241-p-800.png 800w, images/241.png 1080w" alt="" class="nft-image image-round image-shadow"></div>
+        <a data-w-id="67005269-28f5-9f0d-74fc-57be2c795a1d" style="opacity:0" href="https://ca.linkedin.com/in/aidanslackwatkins" class="team-card blue w-inline-block"><img src="images/Aidan.png" loading="lazy" width="540" srcset="images/Aidan-p-500.png 500w, images/Aidan-p-800.png 800w, images/Aidan.png 1080w" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, (max-width: 991px) 32vw, 24vw" alt="" class="nft-image image-round image-shadow">
+          <h1 class="team-heading">Aidan Slack-Watkins</h1>
+          <div class="team-title">Founder</div>
+        </a>
+        <a data-w-id="725b65f3-04c5-c1a9-bf1d-2b9353d1268a" style="opacity:0" href="https://www.instagram.com/gabrielsoto/" target="_blank" class="team-card yellow w-inline-block"><img src="images/455.png" loading="lazy" width="540" srcset="images/455-p-500.png 500w, images/455-p-800.png 800w, images/455.png 1080w" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, (max-width: 991px) 32vw, 24vw" alt="" class="nft-image image-round image-shadow">
+          <h1 class="team-heading yellow">Gabriel Soto</h1>
+          <div class="team-title yellow">Actor and <br>Philanthropist</div>
+        </a>
+        <a data-w-id="7a414108-6099-6e85-e405-8b1f25966cf4" style="opacity:0" href="https://www.instagram.com/irinabaeva/" target="_blank" class="team-card rose w-inline-block"><img src="images/114.png" loading="lazy" width="540" srcset="images/114-p-500.png 500w, images/114-p-800.png 800w, images/114.png 1080w" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, (max-width: 991px) 32vw, 24vw" alt="" class="nft-image image-round image-shadow">
+          <h1 class="team-heading">Irina Baeva</h1>
+          <div class="team-title">Actress and Philanthropist</div>
+        </a>
+        <a data-w-id="c169ca0b-1794-4546-dfd7-13d4b0658b0e" style="opacity:0" href="https://ca.linkedin.com/in/katie-jiang-9a3950117" target="_blank" class="team-card rose w-inline-block"><img src="images/Katie.png" loading="lazy" width="540" srcset="images/Katie-p-500.png 500w, images/Katie-p-800.png 800w, images/Katie.png 1080w" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, (max-width: 991px) 32vw, 24vw" alt="" class="nft-image image-round image-shadow">
+          <h1 class="team-heading">Katie Jiang</h1>
+          <div class="team-title">Senior Marketing Expert</div>
+        </a>
+        <a data-w-id="3e258a66-bdb8-25b9-27af-7b76f0f7497c" style="opacity:0" href="https://instagram.com/elliott.mcdermott" target="_blank" class="team-card blue w-inline-block"><img src="images/Elliott.png" loading="lazy" width="540" srcset="images/Elliott-p-500.png 500w, images/Elliott-p-800.png 800w, images/Elliott.png 1080w" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, (max-width: 991px) 32vw, 24vw" alt="" class="nft-image image-round image-shadow">
+          <h1 class="team-heading">Elliott McDrermott</h1>
+          <div class="team-title">Artist</div>
+        </a>
+        <a data-w-id="d84e1ed6-33bb-4804-6ee9-570a9c8d3ef8" style="opacity:0" href="https://ca.linkedin.com/in/saunders-white-803180156" target="_blank" class="team-card navy w-inline-block"><img src="images/Saunders.png" loading="lazy" width="540" srcset="images/Saunders-p-500.png 500w, images/Saunders-p-800.png 800w, images/Saunders.png 1080w" sizes="(max-width: 479px) 96px, (max-width: 767px) 192px, (max-width: 991px) 32vw, 24vw" alt="" class="nft-image image-round image-shadow">
+          <h1 class="team-heading">Saunders White</h1>
+          <div class="team-title">Event Coordinator</div>
+        </a>
       </div>
     </div>
   </div>
-  <div class="section d-flex border-aztec-top border-aztec-top bg-blue wf-section">
-    <div class="container w-container">
-      <h1 class="axo-heading">FAQs</h1>
-      <div class="w-embed w-script">
-        <script type="text/javascript" src="documents/axo-earth-wc.js"></script>
-        <axo-earth-connect-button></axo-earth-connect-button>
-        <axo-earth-mint-section></axo-earth-mint-section>
-        <script type="text/javascript">
-  const connect = document.querySelector('axo-earth-connect-button');
-  const mint = document.querySelector('axo-earth-mint-section');
-  connect.addEventListener('accountChanged', (event)=> {
-    mint.account = event.detail;
-  });
-  connect.addEventListener('balanceChanged',(event)=> {
-    mint.balance = event.detail;
-  });
-</script>
+  <div id="axo-faqs" class="section _w-d-flex border-aztec-top bg-blue wf-section">
+    <div class="_w-container w-container">
+      <h1 data-w-id="180ed4dd-d482-56ec-b17e-0c997d3229e4" style="opacity:0" class="axo-heading">FAQs</h1>
+      <div class="faq-section">
+        <div data-hover="false" data-delay="0" data-w-id="4012c403-6c0e-1bf5-38f4-b47c75a80cec" style="height:5rem;opacity:0" class="accordion w-dropdown">
+          <div class="_w--dropdown-toggle w-dropdown-toggle">
+            <div class="accordion-question">How much is an Axo?</div>
+            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion-icon w-icon-dropdown-toggle"></div>
+          </div>
+          <div class="_w--dropdown-list w-dropdown-list">
+            <div class="accordion-text">This is some text inside of a div block.</div>
+          </div>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="cc8cbf59-b2b7-b42a-320b-e3e18f846a57" style="height:5rem;opacity:0" class="accordion w-dropdown">
+          <div class="_w--dropdown-toggle w-dropdown-toggle">
+            <div class="accordion-question">How to purchase?</div>
+            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion-icon w-icon-dropdown-toggle"></div>
+          </div>
+          <div class="_w--dropdown-list w-dropdown-list">
+            <div class="accordion-text">This is some text inside of a div block.</div>
+          </div>
+        </div>
+        <div data-hover="false" data-delay="0" data-w-id="a281a90b-ea8a-37c8-4fc5-432ff4ded4ca" style="height:5rem;opacity:0" class="accordion w-dropdown">
+          <div class="_w--dropdown-toggle w-dropdown-toggle">
+            <div class="accordion-question">How many can I buy?</div>
+            <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="accordion-icon w-icon-dropdown-toggle"></div>
+          </div>
+          <div class="_w--dropdown-list w-dropdown-list">
+            <div class="accordion-text">This is some text inside of a div block.</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="footer wf-section">
-    <div class="container w-container">
+    <div class="_w-container w-container">
       <div class="columns w-row">
-        <div class="w-col w-col-6">
-          <div>Copyright 2022 AXO.Earth. All Rights Reserved.</div>
+        <div class="column-4 w-col w-col-6 w-col-small-small-stack w-col-tiny-tiny-stack">
+          <div class="footer--copyright">Copyright 2022 AXO.Earth. All Rights Reserved. </div>
+          <a href="terms-conditions.html" class="footer-link-sm">Terms of Service</a>
         </div>
-        <div class="w-col w-col-6"></div>
+        <div class="column-3 w-col w-col-6 w-col-small-small-stack w-col-tiny-tiny-stack">
+          <div class="footer-icons">
+            <a href="https://www.whitecapcanada.com" class="footer--links w-inline-block"><img src="images/site-by-whitecap.png" loading="lazy" width="150" alt="" class="image-6"></a>
+            <a href="https://www.whitecapcanada.com" class="w-inline-block"><img src="images/Twitter.svg" loading="lazy" width="24" alt="" class="footer--links"></a>
+            <a href="https://www.whitecapcanada.com" class="hide w-inline-block"><img src="images/discord.svg" loading="lazy" width="28.5" alt=""></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=627d4689dd6316bd5c00747d" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.2/dist/js/splide.min.js"></script>
   <script>
-    function slider1() {
-    let splides = $('.slider1');
-    for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
-      new Splide( splides[ i ], {
-      // Desktop on down
-      perPage: 5,
-      perMove: 1,
-      focus: 0, // 0 = left and 'center' = center
-      type: 'slide', // 'loop' or 'slide'
-      gap: '2em', // space between slides
-      arrows: 'slider', // 'slider' or false
-      pagination: 'slider', // 'slider' or false
-      speed : 600, // transition speed in miliseconds
-      dragAngleThreshold: 30, // default is 30
-      autoWidth: false, // for cards with differing widths
-      rewind : false, // go back to beginning when reach end
-      rewindSpeed : 400,
-      waitForTransition : false,
-      updateOnMove : true,
-      trimSpace: false, // true removes empty space from end of list
-      breakpoints: {
-        991: {
-          // Tablet
-        },
-        767: {
-          // Mobile Landscape
-        },
-        479: {
-          // Mobile Portrait
-        }
-      }
-    } ).mount();
-    }
-    }
-    slider1();
-    </script>
+function slider1() {
+let splides = $('.slider1');
+for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
+	new Splide( splides[ i ], {
+  // Desktop on down
+	perPage: 2,
+	perMove: 1,
+  focus: 0, // 0 = left and 'center' = center
+  type: 'slide', // 'loop' or 'slide'
+  gap: '2em', // space between slides
+  arrows: 'slider', // 'slider' or false
+  pagination: false, // 'slider' or false
+  speed : 600, // transition speed in miliseconds
+  dragAngleThreshold: 60, // default is 30
+  autoWidth: false, // for cards with differing widths
+  rewind : false, // go back to beginning when reach end
+  rewindSpeed : 400,
+  waitForTransition : false,
+  updateOnMove : true,
+  trimSpace: false, // true removes empty space from end of list
+  breakpoints: {
+		991: {
+    	// Tablet
+			perPage: 2,
+      gap: '3vw',
+		},
+    767: {
+    	// Mobile Landscape
+			perPage: 1,
+      gap: '3vw',
+		},
+    479: {
+    	// Mobile Portrait
+			perPage: 1,
+      gap: '3vw',
+		}
+	}
+} ).mount();
+}
+}
+slider1();
+</script>
 </body>
 </html>
